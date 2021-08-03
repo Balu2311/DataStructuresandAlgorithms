@@ -11,6 +11,7 @@ namespace Algorithm
             Console.WriteLine("1.Permutations_String");
             Console.WriteLine("2.BinarySearchFile");
             Console.WriteLine("3.InsertionSort");
+            Console.WriteLine("4.BubbleSort");
 
             int Option = int.Parse(Console.ReadLine());
             switch (Option)
@@ -27,6 +28,10 @@ namespace Algorithm
                 case 3:
                     InsertionSort insertionSort = new InsertionSort();
                     insertionSort.insertion();
+                    break;
+                case 4:
+                    BubbleSort bubbleSort = new BubbleSort();
+                    bubbleSort.bubblesort();
                     break;
 
                 default:
