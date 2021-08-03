@@ -12,6 +12,7 @@ namespace Algorithm
             Console.WriteLine("2.BinarySearchFile");
             Console.WriteLine("3.InsertionSort");
             Console.WriteLine("4.BubbleSort");
+            Console.WriteLine("5.MergeSort");
 
             int Option = int.Parse(Console.ReadLine());
             switch (Option)
@@ -33,6 +34,10 @@ namespace Algorithm
                     BubbleSort bubbleSort = new BubbleSort();
                     bubbleSort.bubblesort();
                     break;
+                case 5:
+                    MergeSort mergeSort = new MergeSort();
+                    mergeSort.mergesort(); 
+                    break;
 
                 default:
                     Console.WriteLine("Please Enter valid option");
@@ -41,6 +46,7 @@ namespace Algorithm
             }
         }
 
+       
     }
 
 

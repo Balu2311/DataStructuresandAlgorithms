@@ -11,7 +11,7 @@ namespace Algorithm
             Console.WriteLine("enter the string array length");
             int n = Utility.IntegerInput();
             string[] str = new string[n];
-            string[] temp;
+            //string[] temp;
             for (int i = 0; i < str.Length; i++)
             {
                 Console.WriteLine("enter the arrayelements into str[" + i + "]:");
