@@ -32,5 +32,27 @@ namespace Algorithm
             }
             return -1;
         }
+        public static int IntegerInput()
+        {
+            return int.Parse(Console.ReadLine());
+        }
+        public static void arraysorting(string[] str, int n)
+        {
+            string temp = " ";
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = i + 1; j < n; j++)
+                {
+                    if (str[i].CompareTo(str[j]) > 0)
+                    {
+
+                        temp = str[i];
+                        str[i] = str[j];
+                        str[j] = temp;
+                    }
+
+                }
+            }
+        }
     }
 }

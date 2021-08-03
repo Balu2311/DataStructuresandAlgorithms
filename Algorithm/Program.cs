@@ -10,6 +10,7 @@ namespace Algorithm
             Console.WriteLine("Enter Option");
             Console.WriteLine("1.Permutations_String");
             Console.WriteLine("2.BinarySearchFile");
+            Console.WriteLine("3.InsertionSort");
 
             int Option = int.Parse(Console.ReadLine());
             switch (Option)
@@ -22,6 +23,10 @@ namespace Algorithm
                     break;
                 case 2:
                     BinarySearchFile.Binarysearch();
+                    break;
+                case 3:
+                    InsertionSort insertionSort = new InsertionSort();
+                    insertionSort.insertion();
                     break;
 
                 default:
