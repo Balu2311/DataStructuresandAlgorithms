@@ -15,6 +15,7 @@ namespace Algorithm
             Console.WriteLine("5.MergeSort");
             Console.WriteLine("6.Anagram");
             Console.WriteLine("7.PrimeNumbers");
+            Console.WriteLine("8.Regex");
 
             int Option = int.Parse(Console.ReadLine());
             switch (Option)
@@ -47,18 +48,13 @@ namespace Algorithm
                 case 7:
                     PrimeNumbersRange.primenumbers();
                     break;
-
                 default:
                     Console.WriteLine("Please Enter valid option");
                     break;
 
             }
         }
-
-       
     }
-
-
  }
 
 
