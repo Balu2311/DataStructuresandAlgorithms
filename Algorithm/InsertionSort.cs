@@ -24,7 +24,6 @@ namespace Algorithm
                 Console.WriteLine(str[i]);
 
             }
-
         }
     }
 }
