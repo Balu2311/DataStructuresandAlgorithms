@@ -71,10 +71,8 @@ namespace Algorithm
                 i++;
                 k++;
 
-            }
-           
+            }  
         }
-
     }
 }
 
