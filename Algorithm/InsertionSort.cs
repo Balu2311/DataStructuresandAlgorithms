@@ -18,12 +18,12 @@ namespace Algorithm
                 str[i] = Utility.usersinput();
             }
             Utility.arraysorting(str, n);
+            Console.WriteLine("InsertionSort");
             for (int i = 0; i < str.Length; i++)
             {
                 Console.WriteLine(str[i]);
 
             }
-
 
         }
     }

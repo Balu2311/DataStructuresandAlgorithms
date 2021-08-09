@@ -13,6 +13,8 @@ namespace Algorithm
             Console.WriteLine("3.InsertionSort");
             Console.WriteLine("4.BubbleSort");
             Console.WriteLine("5.MergeSort");
+            Console.WriteLine("6.Anagram");
+            Console.WriteLine("7.PrimeNumbers");
 
             int Option = int.Parse(Console.ReadLine());
             switch (Option)
@@ -37,6 +39,13 @@ namespace Algorithm
                 case 5:
                     MergeSort mergeSort = new MergeSort();
                     mergeSort.mergesort(); 
+                    break;
+                case 6:
+                    Anagrams anagram = new Anagrams();
+                    anagram.anagrams();
+                    break;
+                case 7:
+                    PrimeNumbersRange.primenumbers();
                     break;
 
                 default:

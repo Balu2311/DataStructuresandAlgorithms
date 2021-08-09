@@ -34,6 +34,7 @@ namespace Algorithm
         }
         public static int IntegerInput()
         {
+            
             return int.Parse(Console.ReadLine());
         }
         public static void arraysorting(string[] str, int n)
@@ -69,6 +70,39 @@ namespace Algorithm
 
                 }
             }
+        }
+        public static int primenumber()
+        {
+
+            Console.WriteLine("enter the number1:");
+            int snum = Utility.IntegerInput();
+            Console.WriteLine("enter the number2: ");
+            int Enum = Utility.IntegerInput();
+            int count = 0;
+
+            for (int i = snum; i < Enum; i++)
+            {
+
+                for (int j = 2; j < i; j++)
+                {
+                    if (i % j == 0)
+                    {
+                        count = 0;
+                        break;
+                    }
+                    else
+                    {
+                        count = 1;
+
+                    }
+                }
+                if (count == 1)
+                {
+                    return i;
+                }
+
+            }
+            return -1;
         }
     }
 }

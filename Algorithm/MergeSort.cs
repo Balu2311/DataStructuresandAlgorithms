@@ -72,7 +72,11 @@ namespace Algorithm
                 k++;
 
             }
+           
         }
+
     }
 }
+
+
 
